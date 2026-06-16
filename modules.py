@@ -1,0 +1,21 @@
+import numpy as n
+l1=[1,2,3,4,5]
+l2=[6,7,8,9,10]
+a1=n.array(l1)
+##print("array",a1)
+a2=n.array(l2)
+##print("array",a2)
+##print(l1+l2)
+##print(a1+a2)
+##print(a1-a2)
+##print(a1*a2)
+##print(a1//a2)
+##print(a1**a2)
+##print(a1%a2)
+print(n.sum(a1))
+print(n.min(a1))
+print(n.max(a1))
+print(n.mean(a1))
+print(n.median(a1))
+print(n.random.randint(100,999))
+print(n.sqrt(a1))
